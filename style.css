@@ -1,0 +1,104 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:black;
+color:white;
+padding:20px 60px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.menu{
+display:flex;
+gap:50px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+}
+
+.start{
+padding:15px 25px;
+background:#141414;
+color:white;
+border:none;
+border-radius:12px;
+}
+
+.hero{
+margin-top:50px;
+}
+
+.hero h1{
+font-size:120px;
+text-align:center;
+margin-bottom:40px;
+}
+
+.filter{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-bottom:60px;
+}
+
+.filter button{
+padding:15px 30px;
+border:none;
+border-radius:30px;
+background:#171717;
+color:white;
+}
+
+.active{
+background:orangered !important;
+}
+
+.cards{
+display:flex;
+gap:20px;
+}
+
+.card{
+width:33%;
+background:#111;
+border-radius:25px;
+overflow:hidden;
+padding-bottom:20px;
+}
+
+.card img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+
+.tag{
+margin:20px;
+padding:10px 20px;
+border:none;
+border-radius:20px;
+background:#4b1d10;
+color:orange;
+}
+
+.card h2{
+padding:0 20px;
+font-size:35px;
+margin-bottom:20px;
+}
+
+.card p{
+padding:0 20px;
+color:gray;
+}
